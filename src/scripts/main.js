@@ -18,7 +18,7 @@ const food = {
   },
 };
 
-const tree = document.querySelector('#tree');
+const treee = document.querySelector('#tree');
 
 function createTree(element, data) {
   const ul = document.createElement('ul');
@@ -37,4 +37,4 @@ function createTree(element, data) {
   element.appendChild(ul);
 }
 
-createTree(tree, food);
+createTree(treee, food);
